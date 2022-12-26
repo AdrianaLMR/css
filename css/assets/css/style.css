@@ -3,3 +3,14 @@
     color: black;
     font-family:cursive ;
 }
+#imgCombinadores{
+    width: 200px;
+    height: 100px;
+}
+body > h2, h3, h4, h5{
+    background: pink;
+}
+#titleCss{
+    margin-left: 700px;
+    font-size: 50px;
+}
