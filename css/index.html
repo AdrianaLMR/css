@@ -8,7 +8,8 @@
     <title>Fundamentos do CSS</title>
 </head>
 <body>
-    <h1>Fundamentos do CSS</h1>
+    <h1 id="titleCss">CSS</h1>
+    <h2>Fundamentos</h2>
     <p>
         O CSS ou Cascading Style sheets ou folha de estilo em cascata, é utilizado para adicionar 
         estilos em uma página da web, ele determina como os elementos e o layout da página devem ser exibidos no navegador.
@@ -51,10 +52,16 @@
     <h2>Agrupamento de seletores</h2>
     <p>As regras CSS podem ser aplicadas para  vários seletores diferentes, por causa disso podemos separar os seletores opr uma vírgula, para evitar ficar copiando ou colando  os mesmos códigos;</p>
     <h3>Combinadores:</h3>
+    <p>Específica o tipo de relação entre dois seletores, como entre duas classes ou classe e ID. Para utilizar um combinador sua estrutura deve ser assim: [seletor] [combiandor] [seletor].</p>
     <ul>
-        <li>Combiandor Descendente:</li>
-        <li>Combiandor Filho:</li>
-        <li>Combiandor  Irmão:</li>
+        <li>Combiandor Descendente(espaço):Utilizado para aplicar as regras CSS somente em elementos que são descentes que vai ser específicado, prociuramos o seletor que é filho de outro para aplicar as regras.</li>
+        <img id="imgCombinadores" src="assets/img/combinadorEspaco.png" alt="Código no termianal: tag li(lista), abre chaves, nova linha, color :, quadrado pequeno vermelho, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves. Nova linha, tag li, combiandor descendente, tag li, abre chaves, nova linha, color, dois pontos, quadrado vermelho pequeno, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves.">
+        <li>Combiandor Filho(>):Seleciona todos os elementos que são filhos imediatos, que seria o filho direto do elemento específicado ao seletor a esquerda.</li>
+        <img id="imgCombinadores" src="assets/img/combiandorfilho.png" alt="Código no termianal: tag li(lista), abre chaves, nova linha, color :, quadrado pequeno vermelho, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves. Nova linha, tag li, combiandor descendente, tag li, abre chaves, nova linha, color, dois pontos, quadrado vermelho pequeno, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves.">
+        <li>Combiandor  Irmão adjacente(+):Utilizado para selecionar um elemento que está diretamente depois do seletor define a esquerda.</li>
+        <img id="imgCombinadores" src="assets/img/combiandorAdjacente.png" alt="Código no termianal: tag li(lista), abre chaves, nova linha, color :, quadrado pequeno vermelho, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves. Nova linha, tag li, combiandor descendente, tag li, abre chaves, nova linha, color, dois pontos, quadrado vermelho pequeno, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves.">
+        <li>Combiandor  Irmão em geral(~):</li>
+        <img id="imgCombinadores" src="assets/img/combiandorGeral.png" alt="Código no termianal: tag li(lista), abre chaves, nova linha, color :, quadrado pequeno vermelho, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves. Nova linha, tag li, combiandor descendente, tag li, abre chaves, nova linha, color, dois pontos, quadrado vermelho pequeno, palavra red(tradução: vermelho), ponto e vírgula, nova linha, fecha chaves.">
     </ul>
 </body>
 </html>
